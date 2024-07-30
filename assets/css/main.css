@@ -2612,6 +2612,48 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+/* Style for the profile photo */
+/* Style for the profile photo */
+/* Style for the intro section */
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Space between the image and text content */
+}
+
+/* Style for the profile photo */
+.profile-photo {
+    flex: 0 0 auto; /* Prevents the photo from shrinking or growing */
+}
+
+.profile-photo img {
+    width: 350px; /* Larger size for a professional look */
+    height: 350px; /* Square dimensions */
+    border-radius: 50%; /* Rounded corners */
+    object-fit: cover; /* Ensures the image covers the square */
+    border: 2px solid #090202; /* Light border for a clean look */
+}
+
+/* Style for the text content */
+.text-content {
+    flex: 1; /* Allows the text content to take up remaining space */
+}
+
+.text-content h1 {
+    margin: 0 0 10px 0; /* Spacing below the heading */
+}
+
+.text-content p {
+    margin: 0 0 20px 0; /* Spacing below the paragraph */
+}
+
+.actions {
+    margin-top: 20px; /* Space above actions */
+}
+
+
+
 
 /* List */
 
